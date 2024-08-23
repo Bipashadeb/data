@@ -11,8 +11,8 @@ def recommender_outfit(temp, weather_desc):
     if temp < 10 :
         return outfits['cold']
     elif 10 <= temp<= 20:
-        return outfits['cold']
+        return outfits['cool']
     elif 20 < temp <= 30:
-        return outfits['warrm']
+        return outfits['warm']
     else:
         return outfits['hot']
